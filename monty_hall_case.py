@@ -36,10 +36,10 @@ win_percentages = [prize_count / (i + 1) * 100 for i, prize_count in enumerate(p
 
 # Plotting
 plt.figure(figsize=(10, 6))
-plt.plot(range(iterations), win_percentages, label='Percentage of Wins', color='red')
-plt.xlabel('Iterations')
-plt.ylabel('Percentage of Wins (%)')
-plt.title('Percentage of Wins Over Iterations Monty Hall case')
+plt.plot(range(iterations), win_percentages, label='Qalib gəlmə faizi', color='red')
+plt.xlabel('İterasiyalar')
+plt.ylabel('Qalib gəlmə faizi (%)')
+plt.title('Seçim dəyişikliyi edildikə iterasiyalar üzrə qalib gəlmə faizi')
 plt.legend()
 plt.grid(True)
 plt.show()
